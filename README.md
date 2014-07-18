@@ -4,7 +4,7 @@ java-logger
 A simple Java logging facility to log aggregated statistical information (no replacement for log4j)
 
 Primitives are
-* Sum<T extends Number>
+* Sum (with generic type T that extends Number)
 * Counter
 * Text
 
