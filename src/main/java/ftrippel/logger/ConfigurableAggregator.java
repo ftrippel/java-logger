@@ -10,7 +10,7 @@ import ftrippel.logger.Logger.OutputChannel;
 
 /**
  * 
- * @author ftrippel
+ * @author https://github.com/ftrippel
  * 
  */
 public class ConfigurableAggregator implements Aggregator {

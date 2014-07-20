@@ -13,7 +13,7 @@ import ftrippel.logger.Logger.OutputChannel;
  * 
  * Wraps one Logger object that can write to multiple OutputChannels, e.g. console and file.
  * 
- * @author ftrippel
+ * @author https://github.com/ftrippel
  * 
  */
 class TestLog extends LoggerFacade {

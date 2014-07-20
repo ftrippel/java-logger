@@ -9,7 +9,7 @@ import static ftrippel.logger.TestLog.*;
 
 /**
  * 
- * @author ftrippel
+ * @author https://github.com/ftrippel
  * 
  */
 public class LoggerTest {

@@ -4,7 +4,7 @@ import ftrippel.logger.Logger.AggregateLoggable;
 
 /**
  * 
- * @author ftrippel
+ * @author https://github.com/ftrippel
  * 
  */
 public class Counter extends AggregateLoggable {

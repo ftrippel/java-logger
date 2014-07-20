@@ -11,7 +11,7 @@ import java.util.Map;
  * 
  * E.g. you can write verbose exceptions to a text file, while writing basic statistical information to both console and text file.
  * 
- * @author ftrippel
+ * @author https://github.com/ftrippel
  * 
  */
 public class Logger {

@@ -3,7 +3,7 @@ package ftrippel.logger;
 /**
  * Facade-style wrapper for the Logger object
  * 
- * @author ftrippel
+ * @author https://github.com/ftrippel
  * 
  */
 public abstract class LoggerFacade {
