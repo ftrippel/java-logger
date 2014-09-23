@@ -3,12 +3,16 @@ java-logger
 
 A simple Java logging facility to log aggregated statistical information (no replacement for log4j)
 
-Primitives are
+Log primitives are
 * Sum (with generic type T that extends Number)
 * Counter
 * Text
 
-In a client project we did batch processing and dispatched the batch input to multiple batch outputs. For the sake of flow control we wanted to log statistical information about this process. We built a Log class (spring singleton bean) that provided us with the primitives above.
+Each instance of a primitive is associated with a name.
+
+Multiple output channels are supported (think of it as a way to log to the console or a file). You can bind log primitives or just instances thereof to a particular output channel.
+
+At the end of processing you can request the statistical information. You can customize the output by specifying an aggregator function.
 
 Example Usage
 =============
